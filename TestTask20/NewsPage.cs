@@ -44,7 +44,7 @@ namespace TestTask20
             submitButton.Click();
             Thread.Sleep(1000);
             WebElement yourAccount = (WebElement)driver.FindElement(By.CssSelector("#idcta-username"));
-            Assert.IsTrue(yourAccount.Text == "Your account", "Login failed!");
+            Assert.AreEqual(yourAccount.Text, "Your account");
         }
 
         [TearDown]
