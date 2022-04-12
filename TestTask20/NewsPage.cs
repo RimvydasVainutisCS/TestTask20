@@ -1,3 +1,9 @@
+/*
+ * Task20, Rimvydas Vainutis
+ * 2022-04-11
+ * Training
+ */
+
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;

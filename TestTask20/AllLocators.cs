@@ -15,10 +15,10 @@ namespace TestTask20
             WebElement signInByLinkText = (WebElement)driver.FindElement(By.LinkText("Your Account"));
             WebElement signInById = (WebElement)driver.FindElement(By.Id("idcta-username"));
             WebElement signInByTagName = (WebElement)driver.FindElement(By.TagName("span"));
-            WebElement yourAccountByXpath = (WebElement)driver.FindElement(By.XPath("//*[@id='idcta - link']"));
-            WebElement yourAccountByClassName = (WebElement)driver.FindElement(By.ClassName("orb-nav-section orb-nav-focus"));
-            WebElement yourAccountByCssSelector = (WebElement)driver.FindElement(By.CssSelector("#idcta-link"));
-            WebElement yourAccountByPartialLinkText = (WebElement)driver.FindElement(By.PartialLinkText("Account"));
+            WebElement signInByXpath = (WebElement)driver.FindElement(By.XPath("//*[@id='idcta - link']"));
+            WebElement signInByClassName = (WebElement)driver.FindElement(By.ClassName("orb-nav-section orb-nav-focus"));
+            WebElement signInByCssSelector = (WebElement)driver.FindElement(By.CssSelector("#idcta-link"));
+            WebElement signInByPartialLinkText = (WebElement)driver.FindElement(By.PartialLinkText("Account"));
         }
     }
 }
